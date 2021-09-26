@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class='box'>
+<view class="title">利用循环语句求利息</view>
+<view>
+<input placeholder="请输入本金" type="number" bindblur="moneyNum"></input>
+<input placeholder="请输入利率" type="number" bindblur="addNum"></input>
+</view>
+<view>总金为：{{sum}}</view>
+<button type="primary" bindtap="calc">换算</button>
+</view>
+<view class="end">电科19-1 王耀敏 2019230101026</view>
+尘埃拂身，终归洁净之道；莲出淤泥，亦能不染自身。
